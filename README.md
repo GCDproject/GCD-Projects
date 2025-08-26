@@ -1,4 +1,1 @@
-My Personal Website
-
-This is the source code for my personal website, built with HTML, CSS, and JavaScript.  
-It’s hosted using GitHub Pages and linked to my custom domain via Seekahost.
+Custom home builders in Western Sydney specializing in residential construction, renovations, and extensions. We deliver modern, energy-efficient designs tailored to your lifestyle, with expert craftsmanship and local knowledge. Quality builds, transparent service, trusted results.

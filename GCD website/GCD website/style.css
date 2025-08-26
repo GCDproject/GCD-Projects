@@ -1,0 +1,231 @@
+/* filepath: c:\Users\GCDou\OneDrive\Documents\personal\GCD website\style.css */
+body {
+  font-family: Arial, sans-serif;
+  background: #111; /* black background */
+  text-align: center;
+  margin-top: 50px;
+  color: #fff; /* default text color */
+}
+h1, h2 {
+  color: #FFD700; /* gold color */
+  font-size: 3em; /* large titles */
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#about-us,
+#our-values,
+.image-section {
+  max-width: 900px; /* wider sections */
+  margin: 40px auto;
+  padding: 30px 32px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  background: #222;
+}
+
+#about-us h2 {
+  font-size: 2.5em;
+  margin-bottom: 12px;
+}
+
+#about-us p {
+  color: #eee;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.side-button {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+
+.image-section {
+  margin: 40px auto;
+  text-align: center;
+}
+
+.image-section img {
+  width: 100%;
+  max-width: 850px;
+  height: 500px; /* increased vertical height */
+  object-fit: cover;
+  object-position: center;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(255, 215, 0, 0.15);
+  border: 3px solid #FFD700;
+  display: block;
+  margin: 0 auto;
+}
+
+/* GitHub Projects Section */
+#github-projects {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px 32px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  background: #222;
+  text-align: left;
+}
+
+#github-projects h2 {
+  font-size: 2.5em;
+  margin-bottom: 12px;
+}
+
+#github-projects ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#github-projects li {
+  background: #333;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+#github-projects li:hover {
+  transform: translateY(-2px);
+}
+
+#github-projects a {
+  color: #FFD700;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#github-projects a:hover {
+  text-decoration: underline;
+}
+
+/* GitHub Projects Repository Link */
+#github-projects-repo {
+  display: none;
+  margin-top: 20px;
+  font-size: 1.1em;
+  color: #eee;
+}
+
+#github-projects-repo a {
+  color: #FFD700;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#github-projects-repo a:hover {
+  text-decoration: underline;
+}
+
+/* Clone Command Section */
+.clone-command {
+  background: #222;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 600px;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2em;
+  position: relative;
+}
+
+.clone-command::before {
+  content: '>';
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: #FFD700;
+  font-size: 1.5em;
+}
+
+.clone-command code {
+  display: block;
+  padding: 10px;
+  background: #333;
+  border-radius: 4px;
+  overflow-x: auto;
+  color: #FFD700;
+  font-weight: bold;
+}
+
+.clone-command button {
+  background: #FFD700;
+  color: #111;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.clone-command button:hover {
+  background: #e6b800;
+}
+
+/* Git Commands Section */
+.git-commands {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px 32px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  background: #222;
+  text-align: left;
+}
+
+.git-commands h2 {
+  font-size: 2.5em;
+  margin-bottom: 12px;
+}
+
+.git-commands pre {
+  background: #333;
+  padding: 15px;
+  border-radius: 4px;
+  overflow-x: auto;
+  color: #FFD700;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.1em;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  h1, h2 {
+    font-size: 2.5em;
+  }
+  button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+  #about-us,
+  #our-values,
+  .image-section,
+  #github-projects,
+  .git-commands {
+    padding: 20px;
+  }
+  .image-section img {
+    height: 300px;
+  }
+  #github-projects-repo {
+    font-size: 1em;
+  }
+  .clone-command {
+    font-size: 1em;
+  }
+}
+
+
